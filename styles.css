@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ffffff 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #d32f2f;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calculator-card {
+    background: rgba(255, 255, 255, 0.98);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #d32f2f;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ffcdd2;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #d32f2f;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #b71c1c;
+}
+
+.result {
+    margin-top: 30px;
+    display: none;
+}
+
+.result-card {
+    background: #fff5f5;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 4px solid #d32f2f;
+}
+
+.result-card h3 {
+    color: #d32f2f;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.result-card p {
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+#ptoStatus {
+    font-weight: 600;
+    color: #d32f2f;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+#ptoDetails {
+    margin-top: 15px;
+    color: #666;
+}
+
+.detail-item {
+    margin-bottom: 8px;
+    padding: 8px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+} 
